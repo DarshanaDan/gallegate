@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Tour Packages | Galle Gate.lk</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="site-header"><div class="container nav"><h2 class="logo">Galle Gate.lk</h2><nav><a href="index.html">Home</a><a href="packages.html">Packages</a><a href="#inquiry">Contact</a></nav></div></header>
+<section class="page-title"><div class="container"><h1>Choose Your Tour Package</h1><p>Select your preferred package, view the detailed itinerary, and contact us easily.</p></div></section>
+<main class="container"><section id="packageFilters" class="filters"></section><section id="packageList" class="package-grid"></section>
+<section id="inquiry" class="inquiry-box"><h2>Package Inquiry</h2><form id="inquiryForm"><input type="text" id="customerName" placeholder="Your Name" required><input type="email" id="customerEmail" placeholder="Your Email" required><input type="text" id="customerPhone" placeholder="Telephone / WhatsApp"><input type="text" id="selectedPackage" placeholder="Selected Package" readonly><textarea id="customerMessage" placeholder="Your message or special requirements"></textarea><button type="submit">Send Inquiry Through WhatsApp</button></form></section></main>
+<div id="packageModal" class="modal"><div class="modal-content"><button class="close-btn" onclick="closeModal()">×</button><div id="modalBody"></div></div></div>
+<footer><p>© 2026 Galle Gate.lk | Your Gateway to Paradise</p></footer>
+<script src="packages-data.js"></script><script src="packages.js"></script>
+</body></html>
